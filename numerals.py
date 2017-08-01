@@ -20,6 +20,8 @@
 num = 3
 ber = 3.14
 numerals = 1
+num_1 = 3
+num_2 = 2
 
 print (type(num))
 
@@ -36,3 +38,15 @@ print numerals
 print (abs(-5))   # there is a module for numbers which is called "ABS" for absolute value
 
 print (round(4.97))  # another module for numbers is called "ROUND" for rounding off numbers
+
+print (num_1 == num_2)  # comparing num_1 variable vs num_2 variable to test EQUAL
+
+print (num_1 != num_2)  # comparing num_1 variable vs num_2 variable to test NOT EQUAL
+
+print (num_1 > num_2)  # comparing num_1 variable vs num_2 variable to test Greater than
+
+print (num_1 < num_2)  # comparing num_1 variable vs num_2 variable to test Less than
+
+print (num_1 >= num_2)  # comparing num_1 variable vs num_2 variable to test Greater or Equal
+
+print (num_1 <= num_2)  # comparing num_1 variable vs num_2 variable to test Less or Equal
