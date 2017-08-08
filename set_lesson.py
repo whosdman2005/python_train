@@ -19,3 +19,8 @@ print (cs_courses2.intersection(art_courses))
 
 print (cs_courses2.difference(art_courses))
 # output
+# set(['Biology', 'Physics', 'Math'])
+
+print (cs_courses2.union(art_courses))
+# output
+# set(['Biology', 'Art', 'CompSci', 'Design', 'Physics', 'Math', 'History'])
