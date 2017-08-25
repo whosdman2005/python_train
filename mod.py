@@ -1,4 +1,5 @@
 # practiciing modular coding Vector2d.py will be the base to be imported to mod.py
+# first technique in importing
 import Vector2d
 
 
