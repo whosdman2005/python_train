@@ -3,11 +3,11 @@
 # this one is like your scripts with argv
 def print_two(*args):                                                  # this will get any number of parameter inputs
     arg1, arg2 = args                                                  # It just happen we specify 2 variables that will be passed to the args
-    print("arg1: %r, arg2: %r " % (arg1, arg2))
-
+    print("arg1: %r, arg2: %r " % (arg1, arg2))                        # *args needs to be in parenthesis to WORK
+                                                                       # this function DOES unpacking the (*args) then it will ask for arg1 & arg2
 
 # ok, that *args is actually pointless, we can just do this
-def print_two_again(arg1, arg2):                                       # will use those 2 inputs
+def print_two_again(arg1, arg2):                                       # will use those 2 inputs; this function didnt need unpacking
     print("arg1: %r, arg2: %r " % (arg1, arg2))
 
 
@@ -31,3 +31,11 @@ print_none()                                                           # this wi
 # arg1: 'Led', arg2: 'Zeplin'
 # arg1: 'Una!'
 # I've got nothin'.
+
+
+##############################################################################################
+# the functions (or mini scripts) are mostly DEFINITIONS
+# same as the "requirements.txt"
+# variable declarations
+# WHILE
+# print_two("X","y") are the IMPLEMENTATIONS or rather USING the functions
