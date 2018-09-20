@@ -1,0 +1,30 @@
+# Below are the Python FUNCTION Checklist to be proficient
+
+a. Did you start your function definition with "def"?
+b. Does your function name have only characters and _(underscore) characters?
+c. Did you put an open parenthesis "(" right after the function name?
+d. Did you put your arguments after the parenthesis "(" separated by commas? e.g: (arg1, arg2)
+e. Did you make each argument unique (meaning no duplicated names)?
+f. Did you put a close parenthesis and a colon "):" after the arguments? e.g: (arg1. arg2):
+g. Did you indent all lines of code you want in the function four spaces? No more, No less
+    e.g: def print_two_again(arg1, arg2):
+         (1234)print("arg1: %r, arg2: %r " % (arg1, arg2))
+
+h. Did you "end" your function by going back to writing with no indent (dedenting we call it)?
+    e.g: def print_two_again(arg1, arg2):
+         (1234)print("arg1: %r, arg2: %r " % (arg1, arg2))
+
+         def abcd(arg1):                        # start of the DEDENTING
+            xxxxxxxxxxxxx
+
+# Below are the Python how to USE the FUNCTION
+
+1. Did you call/use/run this function by typing its name?
+    e.g: print_two_again("Led", "Zepplin")
+
+2. Did you put the "(" character after the name to run it?
+3. Did you put the values you want into the parenthesis separated by commas?
+4. Did you end the function call with a ")" character?
+    e.g: print_two_again("Led", "Zeplin")
+
+    another e.g: print_none()   # Assuming you are only calling that function no input parameter needed
