@@ -28,3 +28,8 @@ h. Did you "end" your function by going back to writing with no indent (dedentin
     e.g: print_two_again("Led", "Zeplin")
 
     another e.g: print_none()   # Assuming you are only calling that function no input parameter needed
+
+
+note:
+*args - that tells Python to take all the arguments to the function and then put them in args as a LIST.
+It's like argv that you've been using, but for functions. It's not normally used too often unless specifically needed
