@@ -52,4 +52,14 @@ print_a_line(current_line,current_file)
 # 3 dog that will hunt your ass off
 
 
+# notes:
+# What is f in the print_all and other functions?
+# The f is a variable just like you had in other functions in Exer18theHardWay.py except this time it's a file.
+# A file in python is kind of like an old tape drive on a mainframe, or maybe a DVD player. It has a "read head" and you
+# can "seek" this read head around the file to positions, then work with it there. Each time you do f.seek(0), you're
+# moving to the start of the file. Each time you do f.readline(), you're reading a line from the file and moving the read head
+# to the right after the \n (new line) that ends that file.
 
+# Why does seek(0) not set the current_line to 0?
+# First, the seek() function is dealing in bytes, not lines. So thats going to the 0 byte (first byte) in the file.
+# Second current_line is just a variable and has no real connection to the file at all. We are manually incrementing it.
