@@ -1,3 +1,7 @@
+def [function_name] ([parameters]):
+    [function_definition]
+
+
 # Below are the Python FUNCTION Checklist to be proficient
 
 a. Did you start your function definition with "def"?

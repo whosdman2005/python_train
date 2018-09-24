@@ -1,20 +1,20 @@
 # Functions can return something
 
 def add(a, b):                                                 # We are expecting 2 variables
-    print("Adding %d + %d" % (a, b))
-    return a + b                                               # whatever the 2 variables return the values to the add() function e.g: 30, 5
+    print("Adding %d + %d" % (a, b))                           # 30, 5
+    return a + b                                               # whatever the 2 variables return the values to the add(35) function
 
-def subtract(a, b):
-    print("Subtracting %d - %d " % (a, b))
-    return a - b
+def subtract(a, b):                                            # We are expecting 2 variables
+    print("Subtracting %d - %d " % (a, b))                     # 78, 4
+    return a - b                                               # 74
 
-def multiply(a, b):
-    print("Multiplying %d * %d" % (a, b))
-    return a * b
+def multiply(a, b):                                            # We are expecting 2 variables
+    print("Multiplying %d * %d" % (a, b))                      # 90, 2
+    return a * b                                               # 180
 
-def divide(a, b):
-    print("Divide %d / %d" % (a, b))
-    return a / b
+def divide(a, b):                                              # We are expecting 2 variables
+    print("Divide %d / %d" % (a, b))                           # 100, 2
+    return a / b                                               # 50.0
 
 print("Let's do some math with just functions!")
 
