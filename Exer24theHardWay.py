@@ -64,5 +64,9 @@ print("We'd have %d beans, %d jars, and %d crates." % (secret_formula(start_poin
 
 
 
-
+# notes:
+# How come you call the variable jelly_beans but the name beans later?
+# That's part of how a function works. Remember that inside the function the variable is temporary,
+# and when you return it, then it can be assigned to a variable for later. I'm just making a new
+# variable named beans to hold the return value.
 
