@@ -42,7 +42,10 @@ def print_first_and_last_sorted(sentence):
 # E:\GIT_DEV_python\python_train>python
 # Python 3.7.0 (v3.7.0:1bf9cc5093, Jun 27 2018, 04:06:47) [MSC v.1914 32 bit (Intel)] on win32
 # Type "help", "copyright", "credits" or "license" for more information.
-# >>> import Exer25theHardWay
+# >>> import Exer25theHardWay                                                                     ## You import your Exer25theHardWay.py Python file,
+                                                                                                  ## just like other imports you have done. Notice you do not need to put the .py
+                                                                                                  ## at the end to import it. When you do this, you make a "MODULE" that has all your
+                                                                                                  ## functions in it to use.
 # >>> sentence = "All good things come to those who wait!"
 # >>> words = Exer25theHardWay.break_words(sentence)
 # >>> words
