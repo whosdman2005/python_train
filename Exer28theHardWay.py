@@ -27,16 +27,30 @@ True or 1 == 1  #  true
 not (True and False)  #true
 
 not (1 == 1 and 0 != 1)  # false
+    # not (1 == 1 and 0 != 1)
+    # False
 
-not (10 == 1 or 1000 == 1000)
+not (10 == 1 or 1000 == 1000) # False
+    # not (10 == 1 or 1000 == 1000)
+    # False
 
-not (1 != 10 or 3 == 4)
+not (1 != 10 or 3 == 4) # false
+    # not (1 != 10 or 3 == 4)
+    # False
 
-not ("testing" == "testing" and "Zed" == "Cool Guy")
+not ("testing" == "testing" and "Zed" == "Cool Guy")  #true
+    # not ("testing" == "testing" and "Zed" == "Cool Guy")
+    # True
 
-1 == 1 and not ("testing" == 1 or 1 == 0)
+1 == 1 and not ("testing" == 1 or 1 == 0)  # true
+    # 1 == 1 and not ("testing" == 1 or 1 == 0)
+    # True
 
-"chunky" == "bacon" and not (3 == 4 or 3 == 3)
+"chunky" == "bacon" and not (3 == 4 or 3 == 3) # false
+    # "chunky" == "bacon" and not (3 == 4 or 3 == 3)
+    # False
 
-3 == 3 and not ("testing" == "testing" or "Python" == "fun")
+3 == 3 and not ("testing" == "testing" or "Python" == "fun") # false
+    # 3 == 3 and not ("testing" == "testing" or "Python" == "fun")
+    # False
 
