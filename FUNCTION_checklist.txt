@@ -37,3 +37,10 @@ h. Did you "end" your function by going back to writing with no indent (dedentin
 note:
 *args - that tells Python to take all the arguments to the function and then put them in args as a LIST.
 It's like argv that you've been using, but for functions. It's not normally used too often unless specifically needed
+
+Syntax:
+
+def functionname(parameters/inputs):
+  "function_docstring"
+  "function_suite"
+  return [expression]
