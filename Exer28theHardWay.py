@@ -54,3 +54,36 @@ not ("testing" == "testing" and "Zed" == "Cool Guy")  #true
     # 3 == 3 and not ("testing" == "testing" or "Python" == "fun")
     # False
 
+# note:
+# Whenever you see these boolean logic statements, you can solve them easily by this simple process:
+# 1. Find an equality test (== or !=) and replace it with its truth.
+# 2. Find each and/or inside parenthesis and solve those first
+# 3. Find each not and invert it
+# 4. Find any remaining and/or and solve it
+# 5. When you are done, you should have True or False
+
+# e.g: 3 != 4 and not ("testing" != "test" or "Python" == "Python")
+
+# Here's an example to solve this
+# a. 3 != 4 is TRUE:    TRUE and not ("testing" != "test" or "Python" == "Python")
+# b. "testing" != "test" is TRUE:    True and not (True or "Python" == "Python")
+# c. "Python" == "Python":      True and not (True or True)
+
+# Find each and/or in parenthesis():
+# (True or True) is True:        True and not (True)
+
+# Find each not and invert it:
+# not (True)is False:     True and False
+
+# Find any remaining and/or and solve them:
+# True and False is False
+
+# With that, we're done and know the result is FALSE
+
+
+# SHORTCUT TECHNIQUE
+# Any expression that has a FALSE is immediately FALSE, so you can stop there. Any or expression
+# that has a TRUE is immediately TRUE, so you can stop there. But make sure that you can process the whole expression, because later it becomes helpful.
+
+
+
