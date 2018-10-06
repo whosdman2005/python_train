@@ -48,3 +48,9 @@ for num in numbers:
 # 3
 # 4
 # 5
+
+
+# What's the difference between a FOR-Loop and a WHILE-Loop?
+# A FOR-Loop can only iterate (loop) "over" collections of things. A WHILE-Loop can do any kind of iteration (looping) you want.
+# However, WHILE-Loops are harder to get right and you normally can get many things done with FOR-Loops
+
