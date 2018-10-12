@@ -1,0 +1,30 @@
+Rules for IF-Statements
+
+a. Every if-statements must have an ELSE
+b. If this ELSE should never be run because it doesnt make sense, then you must use a die function in the ELSE
+that prints out an error message and dies, just like we did in Exer25theHardWay.py this will find many errors.
+c. Never nest if-statements more than two deep and always try to do them one deep.
+This means if you put an IF in an IF, then you should be looking to move that second IF into another function.
+d. Treat if-statements like paragraphs, where each IF, ELIF, ELSE grouping is like a set of sentences. Put blank lines before and after.
+e. Your boolean tests should be simple. If they are complex, move their calculations to variables earlier in your function and use
+a good name for the variable.
+
+IF YOU FOLLOW THESE SIMPLE RULES, YOU WILL START WRITING BETTER CODE THAN MOST PROGRAMMERS.
+
+WARNING: Never be a slave to the rules in real life. For training purposes, you need to follow these rules to make your mind strong,
+but in real life sometimes these rules are just stupid. If you think a rule is stupid, try not using it.
+
+
+Rules for Loops
+
+1. Use a while-loop only to loop forever, and that means probably NEVER. This only applies to Python; other languages are DIFFERENT!!!!
+2. Use a for-loop for all other kinds of looping, especially if there is a fixed or limited number of things to loop over.
+
+
+Tips for DEBUGGING
+
+a1. DO NOT USE a "debugger". A debugger is like doing a full body scan on a sick person. You do not get any specific
+useful information, and you find a whole lot of information that doesnt help and is just confusing.
+b1. The BEST WAY to debug a program is to use PRINT to print out the values of variables at points in the program to see where they go wrong.
+c1. Make sure parts of your programs work as you work on them. Do not write massive files of code before you try to run them.
+CODE a LITTLE, FIX a LITTLE.
