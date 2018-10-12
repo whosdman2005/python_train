@@ -96,6 +96,11 @@ start()
 # Process finished with exit code 0
 
 
+# note:
+# input("> ") is a string that accepts input, that should print as a prompt before getting the users input
+
+
+
 
 
 
