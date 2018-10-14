@@ -1,3 +1,16 @@
+Python functions vs modules
+
+"hi there".split()
+vs
+len("hi there")
+
+1. Write your code with simple functions to get it working.
+2. When you see that you’re basically doing a bunch of func(data) calls that could just be data.func() then refactor it into a class.
+3. Or, if you find that you need to add new functionality to this module of functions, but the new functionality doesn’t really fit into the module, then make a class and extend it.
+4. Or, If you have a function of functions in a module and they really could be classified into separate concepts, then make classes for them.
+
+
+
 def [function_name] ([parameters]):
     [function_definition]
 
