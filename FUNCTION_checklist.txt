@@ -1,3 +1,14 @@
+Process, Creativity, and Quality.
+Burn these three words into your mind while you read this book.
+Process. Creativity. Quality.
+This book may be full of exercises that teach important topics every programmer should know,
+but the real knowledge you'll gain from the book is these three words.
+My goal in writing this book on programming is to teach you what I've known to be the three most important constants in software.
+Without process you'll flounder around wondering how to get started and have problems maintaining progress on long projects.
+Without creativity you'll be unable to solve the problems you'll encounter every day as a programmer.
+Without quality you'll have no idea if anything you're doing is any good.
+
+
 Python functions vs modules
 
 "hi there".split()
