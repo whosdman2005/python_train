@@ -1,0 +1,16 @@
+In addition to process, creativity, and quality you'll also learn what I consider five important topics a modern programmer needs to function.
+These may change in the future, but they've been essential for decades now, so unless there's a drastic shift in technology they'll still apply.
+Even something like SQL in Part VI is still relevant because it teaches you how to structure data so that it doesn't logically fall apart later.
+Your secondary educational goals are:
+
+Getting Started -- You learn this by doing Quick Hacks to learn how to start a project.
+
+Data Structures -- I don't teach every single data structure, but I get you started down the path to learning them more completely.
+
+Algorithms -- Data Structures are fairly pointless without a way to process them.
+
+Parsing Text -- The foundation of computer science is parsing, and knowing how to do that helps you learn programming languages as they become popular.
+
+Data Modeling -- I will use SQL to teach you the basics of modeling stored data in a logical way.
+
+Unix Tools -- Command line tools are used throughout the book as projects for you to copy, and you then also learn advanced Unix command line tools.
