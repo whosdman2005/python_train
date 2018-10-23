@@ -1,0 +1,20 @@
+# You should be reading any Python code you can and trying to steal ideas that you find.
+You actually should have enough knowledge to be able to read by maybe not understand what the code does.
+What i'm going to teach you in this lesson is how to apply things you have learned to understand other
+people's code.
+
+a. Functions and what they do
+b. Where each variable is first given a value
+c. Any variables with the same names in different parts of the program. These may be troubles later.
+d. Any if-statements without else clauses. Are they right?
+e. Any while-loops that might not end
+f. Finally, any parts of code that you can't understand for whatever reason
+
+Once you have all this marked up, try to explain it to yourself by writing comments as you go.
+Explain the functions, how they are used, what variables are involved, and anything you can to figure this code out.
+
+Lastly, on all the difficult parts, trace the values of each variable line by line, function by function.
+In fact, do another printout and write in the margin the value of each variable that you need to "trace"
+
+Once you have a good idea of what the code does, go back to the computer and read it again to see if you find new things.
+Keep finding more code and doing this until you do not need the printouts anymore.
