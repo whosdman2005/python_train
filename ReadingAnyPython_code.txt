@@ -1,3 +1,14 @@
+# Always start at writing your algorithm first before typing it into code
+e.g:
+create a variable called "name" of type "type" that starts with the value "initVal"
+
+Name: what do we call this?
+Type: what type of data does it contain
+initVal: what is its starting value
+
+coding:
+name = initVal
+
 # You should be reading any Python code you can and trying to steal ideas that you find.
 You actually should have enough knowledge to be able to read by maybe not understand what the code does.
 What i'm going to teach you in this lesson is how to apply things you have learned to understand other
