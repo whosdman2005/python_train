@@ -68,3 +68,9 @@ def functionname(parameters/inputs):
   "function_docstring"
   "function_suite"
   return [expression]
+
+
+5 lines or more of code
+put it in a function
+
+5 or more function put it in a class
