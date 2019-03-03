@@ -70,7 +70,8 @@ def functionname(parameters/inputs):
   return [expression]
 
 
-5 lines or more of code
-put it in a function
+- 5 lines or more of code
+put it in a FUNCTION
 
-5 or more function put it in a class
+- 5 or more function put it in a CLASS
+- 5 or more classes group together are called MODULE/LIBRARY
