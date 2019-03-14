@@ -64,7 +64,7 @@ It's like argv that you've been using, but for functions. It's not normally used
 
 Syntax:
 
-def functionname(parameters/inputs):
+def function name(parameters/inputs):
   "function_docstring"
   "function_suite"
   return [expression]
