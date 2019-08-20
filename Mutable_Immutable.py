@@ -32,15 +32,15 @@ print('Address of a is: {}'.format(id(a)))
 # LIST data structure are MUTABLE
 b = [1,2,3,4,5,6,7]
 print(b)
-print('Address of b is: {}'.format(b))
+print('Address of a is: {}'.format(id(b)))
 
 b[0] = '9'
 print(b)
-print('Address of b is: {}'.format(b))
+print('Address of a is: {}'.format(id(b)))
 
 # OUTPUT
 # [1, 2, 3, 4, 5, 6, 7]
-# Address of b is: [1, 2, 3, 4, 5, 6, 7]
+# Address of a is: 2897320  <<<<<<< Memory object are the same
 
-# ['9', 2, 3, 4, 5, 6, 7]
-# Address of b is: ['9', 2, 3, 4, 5, 6, 7]
+# ['9', 2, 3, 4, 5, 6, 7]   <<<<<<< yet it changed the LIST
+# Address of a is: 2897320  <<<<<<< Memory object are the same
